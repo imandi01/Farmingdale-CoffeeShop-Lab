@@ -1,4 +1,8 @@
 package com.ramsbrew;
 
-public class Sweetener {
+public enum Sweetener {
+    SUGAR,
+    HONEY,
+    STEVIA,
+    NONE
 }

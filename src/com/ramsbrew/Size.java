@@ -1,4 +1,7 @@
 package com.ramsbrew;
 
-public class Size {
+public enum Size {
+    SMALL,
+    MEDIUM,
+    LARGE
 }
