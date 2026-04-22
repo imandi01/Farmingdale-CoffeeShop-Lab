@@ -1,4 +1,5 @@
 package com.ramsbrew;
 
-public class DrinkFactory {
+public interface DrinkFactory {
+    Drink createDrink();
 }

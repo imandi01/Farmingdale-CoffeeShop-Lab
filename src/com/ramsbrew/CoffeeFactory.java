@@ -1,4 +1,8 @@
 package com.ramsbrew;
 
-public class CoffeeFactory {
+public class CoffeeFactory implements DrinkFactory {
+    @Override
+    public Drink createDrink(){
+        return new Coffee();
+    }
 }
