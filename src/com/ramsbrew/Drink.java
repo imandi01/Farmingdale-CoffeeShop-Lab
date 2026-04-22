@@ -1,3 +1,5 @@
+package com.ramsbrew;
+
 public abstract class Drink {
     private String name;
     private Size size;

@@ -1,8 +1,9 @@
 package com.ramsbrew;
 
-public class Cappuccino {
+public class Cappuccino extends Drink{
     public Cappuccino(){
         super("Cappuccino");
+
     }
 
 }

@@ -6,7 +6,7 @@ public class DrinkStore {
                             Milk milk, int shots, Sweetener sweetener) {
 
         DrinkFactory factory = getFactory(drinkType);
-        Drink drink = factory.createDrink();
+        Drink drink = (Drink) factory.createDrink();
 
         DrinkBuilder builder = getBuilder(drinkType, drink);
         builder.setTemperature(temperature)

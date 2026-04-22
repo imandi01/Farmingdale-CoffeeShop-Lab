@@ -1,11 +1,10 @@
 package com.ramsbrew;
 
 public enum Milk {
-    WHOlE,
+    WHOLE,
     SKIM,
     ALMOND,
     OAT,
     SOY,
     NONE
-
 }
